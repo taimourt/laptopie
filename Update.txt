@@ -1,0 +1,14 @@
+Update:
+Theme now gets url from netlify so don't need to change url from gatsby-config
+You can now change disqus shortname from admin panel > site information instead of gatsby-config
+All Site Names in About / Terms of service etc pages are variables so don't need to change them they will fetch site name from admin panel > site information
+Fixed netlify show error when product image is missing(now it will just show empty instead of image)
+Will now show date in this format(28 days ago) instead of this (September 28, 2020) on blog post and category page 
+Added About page to permanent page(will add a disable button in future updates) due to schema issue
+Website will now deploy even when no posts are added
+
+This update was made so you can easily create/duplicate theme and no need to edit gatsby-config to change siteurl or change sitename from other pages
+
+And many other features are remaining which will added in the future updates like option to change blog homepage to normal homepage
+
+I will be updating your repositories in few hours(The pages with sitename as variables will not be added in the update to not overwrite your pages but instead will be avalible in the new theme zip)
